@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
+		origin: "https://edtechshubh.netlify.app",
 		credentials: true,
 	})
 );
